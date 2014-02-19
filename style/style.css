@@ -245,7 +245,7 @@ body[data-page="html"] #html-container,
 body[data-page="javascript"] #javascript-container,
 body[data-page="all"] .page:not(#javascript-container) {
 	display: block;
-}
+} 
 
 /*
  * Define the different views

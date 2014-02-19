@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>JavaScript editor</title>
+<link rel="stylesheet" href="/style/global.css" />
+<link rel="stylesheet" href="/style/style.css" />
+<script src="/code/prefixfree.min.js"></script>
+</head>
+<body data-view="split-vertical" data-page="javascript">
+<iframe class="page" id="result" src="preview/index.html"></iframe>
+
+<section id="html-container" class="editor page"><pre id="html" spellcheck="false" class="language-html" contenteditable>&lt;!-- content to be placed inside &lt;body>…&lt;/body> --></pre></section>
+
+<section id="javascript-container" class="editor page"><pre id="javascript" spellcheck="false" class="language-javascript" contenteditable>// alert('Hello world!');</pre></section>
+<button title="Run JavaScript" class="for-code javascript">Run</button>
+
+<script src="/code/utopia.js"></script>
+<script src="/code/selection.js"></script>
+<script src="/code/prism.js"></script>
+<script src="/code/code-highlight.js"></script>
+<script src="/code/editor.js"></script>
+<script>
+(function() {
+	
+}());
+</script>
+</body>
+</html>
